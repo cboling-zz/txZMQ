@@ -43,7 +43,7 @@ def produce():
         s.send(data)
 
     except zmq.error.Again:
-        print "Skipping, no pull consumers..."
+        print "Skipping, other end of pair missing..."
 
     reactor.callLater(1 + random.randint(0, 3), produce)
 

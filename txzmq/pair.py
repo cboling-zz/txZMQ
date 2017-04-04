@@ -1,5 +1,5 @@
 """
-ZeroMQ PUSH-PULL wrappers.
+ZeroMQ PAIR wrapper.
 """
 from zmq import constants
 

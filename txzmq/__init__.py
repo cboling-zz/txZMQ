@@ -8,10 +8,11 @@ from txzmq.pushpull import ZmqPushConnection, ZmqPullConnection
 from txzmq.req_rep import ZmqREQConnection, ZmqREPConnection, \
     ZmqRequestTimeoutError
 from txzmq.router_dealer import ZmqRouterConnection, ZmqDealerConnection
+from txzmq.pair import ZmqPairConnection
 
 
 __all__ = ['ZmqConnection', 'ZmqEndpoint', 'ZmqEndpointType', 'ZmqFactory',
            'ZmqPushConnection', 'ZmqPullConnection', 'ZmqPubConnection',
            'ZmqSubConnection', 'ZmqREQConnection', 'ZmqREPConnection',
            'ZmqRouterConnection', 'ZmqDealerConnection',
-           'ZmqRequestTimeoutError']
+           'ZmqRequestTimeoutError','ZmqPairConnection']
